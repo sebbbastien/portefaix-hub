@@ -5592,6 +5592,45 @@ entries:
         url: https://keybase.io/nlamirault/pgp_keys.asc
     apiVersion: v2
     appVersion: 3.3.0
+    created: "2025-03-08T05:47:11.382037875Z"
+    description: A Helm chart for Loki Mixin
+    digest: e5dc87aff2d1571f96557873c874ccf97dea130d272c23159c8136757518009b
+    home: https://charts.portefaix.xyz
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    keywords:
+    - loki
+    - monitoring-mixin
+    - portefaix
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+    name: loki-mixin
+    sources:
+    - https://github.com/nlamirault/portefaix-hub/tree/master/charts/loki-mixin
+    type: application
+    urls:
+    - https://github.com/sebbbastien/portefaix-hub/releases/download/loki-mixin-1.10.0/loki-mixin-1.10.0.tgz
+    version: 1.10.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: loki-mixin v3.3.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: loki
+          url: https://grafana.com/oss/loki/
+        - name: Portefaix
+          url: https://portefaix.xyz
+        - name: Monitoring mixins
+          url: https://github.com/nlamirault/monitoring-mixins
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+      artifacthub.io/signKey: |
+        fingerprint: C39918B3EBDE35C23B8D0B8E5F99269A6FCA437C
+        url: https://keybase.io/nlamirault/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 3.3.0
     created: "2024-11-23T14:41:32.860572234Z"
     description: A Helm chart for Loki Mixin
     digest: 0edf4bc4f780161b28b20d14c14b3791551e4e9af727cb1da72bce91e2c6ffe0
@@ -13552,4 +13591,4 @@ entries:
     urls:
     - https://github.com/portefaix/portefaix-hub/releases/download/unifi-poller-0.1.0/unifi-poller-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-08T05:43:50.949789903Z"
+generated: "2025-03-08T05:47:11.382536836Z"

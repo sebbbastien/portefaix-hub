@@ -2358,6 +2358,48 @@ entries:
     urls:
     - https://github.com/portefaix/portefaix-hub/releases/download/crossplane-gcp-factory-0.1.0/crossplane-gcp-factory-0.1.0.tgz
     version: 0.1.0
+  external-secrets-crds:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Init chart
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: External Secrets
+          url: https://github.com/external-secrets/external-secrets
+        - name: Portefaix Hub
+          url: https://github.com/portefaix/portefaix-hub
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+      artifacthub.io/signKey: |
+        fingerprint: C39918B3EBDE35C23B8D0B8E5F99269A6FCA437C
+        url: https://keybase.io/nlamirault/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 0.10.4
+    created: "2025-03-08T05:43:48.652627327Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 0.0.0
+    description: External Secrets CRDs
+    digest: 5f0196736dafb4f1b8c54d5523a9e5b09c2e53f68fded4ec20ae301db1891118
+    home: https://external-secrets.io/
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+    keywords:
+    - kubernetes
+    - external-secrets
+    - crds
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+      url: https://github.com/nlamirault
+    name: external-secrets-crds
+    sources:
+    - https://github.com/external-secrets/external-secrets
+    urls:
+    - https://github.com/sebbbastien/portefaix-hub/releases/download/external-secrets-crds-1.0.0/external-secrets-crds-1.0.0.tgz
+    version: 1.0.0
   falco-talon:
   - annotations:
       artifacthub.io/changes: |
@@ -10699,6 +10741,46 @@ entries:
         url: https://keybase.io/nlamirault/pgp_keys.asc
     apiVersion: v2
     appVersion: 1.10.0
+    created: "2025-03-08T05:43:50.072349252Z"
+    description: A Helm chart for Grafana Pyroscope mixin
+    digest: 5d5c6f42ab6760a3d37009d0a6424d90579c70ef05368e611b30cca376c7abd6
+    home: https://charts.portefaix.xyz
+    icon: https://grafana.com/static/img/pyroscope-logo.svg
+    keywords:
+    - pyroscope
+    - kubernetes
+    - monitoring-mixin
+    - portefaix
+    maintainers:
+    - email: nicolas.lamirault@gmail.com
+      name: nlamirault
+    name: pyroscope-mixin
+    sources:
+    - https://github.com/nlamirault/portefaix-hub/tree/master/charts/kubernetes-mixin
+    type: application
+    urls:
+    - https://github.com/sebbbastien/portefaix-hub/releases/download/pyroscope-mixin-1.6.0/pyroscope-mixin-1.6.0.tgz
+    version: 1.6.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: pyroscope-mixin v1.10.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: pyroscope
+          url: https://grafana.com/oss/pyroscope
+        - name: Portefaix
+          url: https://portefaix.xyz
+        - name: Monitoring mixins
+          url: https://github.com/nlamirault/monitoring-mixins
+      artifacthub.io/maintainers: |
+        - name: nlamirault
+          email: nicolas.lamirault@gmail.com
+      artifacthub.io/signKey: |
+        fingerprint: C39918B3EBDE35C23B8D0B8E5F99269A6FCA437C
+        url: https://keybase.io/nlamirault/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 1.10.0
     created: "2024-11-23T14:59:11.627289425Z"
     description: A Helm chart for Grafana Pyroscope mixin
     digest: 0e6f1d1da8ab021d985ccee61dac92298073ef1e16fcb87ab8862c6ed6bf9c95
@@ -13470,4 +13552,4 @@ entries:
     urls:
     - https://github.com/portefaix/portefaix-hub/releases/download/unifi-poller-0.1.0/unifi-poller-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-04T17:28:57.897116474Z"
+generated: "2025-03-08T05:43:50.949789903Z"
